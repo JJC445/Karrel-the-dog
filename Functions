@@ -1,13 +1,14 @@
 function main() {
-    // Enter your code here!
+    //Insert your code here!
 }
 
+// Moves 3 times
 function move3Times(){
     move();
     move();
     move();
 }
-
+// Builds a tower
 function buildTower(){
     turnLeft();
     putBall();
@@ -17,21 +18,15 @@ function buildTower(){
     putBall();
     turnAround();
     moveTwice();
+    turnLeft();
+}
+// Move 4 times.
+function move4Times() {
+	move();
+	move3Times();
 }
 
-function runToFinish() {
-	move();
-	move();
-	move();
-	move();
-}
-
-function runToHurdle() {
-	move();
-	move();
-	move();
-}
-
+// Moves over obstacle at front
 function jumpHurdle() {
 	turnLeft();
 	move();
@@ -41,13 +36,15 @@ function jumpHurdle() {
 	move();
 	turnLeft();
 }
-
+/* This function is Obsolete.
+Turns right
 function turnRight() {
 	turnLeft();
 	turnLeft();
 	turnLeft();
 }
-
+*/
+// Moves down 3, places ball and returns.
 function buryBall(){
     turnRight();
     moveTwice();
@@ -58,58 +55,29 @@ function buryBall(){
     moveTwice();
     turnRight();
 }
-
+// Places 3 balls
 function makePancakes(){
     putBall();
     putBall();
     putBall();
 }
-
+// Collect 2 balls
 function collectCoins() {
     takeBall();
     takeBall();
 
 }
 
+// Turns around
 function turnAround(){
     turnLeft();
     turnLeft();
 }
 
+
+// Move 2 times
 function moveTwice(){
     move();
-    move();
-}
-
-// Puts down four balls in a row
-function putBallsInRow() {
-    move();
-    putBall();
-    move();
-    putBall();
-    move();
-    putBall();
-    move();
-    putBall();
-}
-
-// Makes the diagonal for the 'Z'
-function makeDiagonal() {
-    turnRight();
-    move();
-    turnRight();
-    move();
-    putBall();
-    
-    turnLeft();
-    move();
-    turnRight();
-    move();
-    putBall();
-
-    turnLeft();
-    move();
-    turnRight();
     move();
 }
 
