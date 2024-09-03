@@ -11,7 +11,7 @@ function main() {
     for (let i = 0; i < A; i++) {
 	ExampleAction();
 	}
- *\
+ */
 
 // Moves 3 times
 function move3Times(){
