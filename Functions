@@ -3,11 +3,11 @@ function main() {
 }
 
 /*
-*This is a loop, you insert your code and at the second number in the loop is how many
-*times you want it to loop or perform a specific task. This is very useful when you want
-*to perform a repeated action, such as movement. Here is an example below
-*
-*This loop will repeat A times before exiting.
+ *This is a loop, you insert your code and at the second number in the loop is how many
+ *times you want it to loop or perform a specific task. This is very useful when you want
+ *to perform a repeated action, such as movement. Here is an example below
+ *
+ *This loop will repeat A times before exiting; the loop is like a function.
     for (let i = 0; i < A; i++) {
 	ExampleAction();
 	}
