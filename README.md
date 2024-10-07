@@ -1,0 +1,1 @@
+This is a repository dedicated to being an alternative to pastebin (if GoGuardian or other service is blocking the website.) This repository has the sole purpose of being a notepad and does not endorse cheating.
